@@ -1,41 +1,10 @@
-# Compiled Lua sources
-luac.out
+--[[
+  _                          ___    _        __                                _                _ 
+ | |      _   _    __ _     / _ \  | |__    / _|  _   _   ___    ___    __ _  | |_    ___    __| |
+ | |     | | | |  / _` |   | | | | | '_ \  | |_  | | | | / __|  / __|  / _` | | __|  / _ \  / _` |
+ | |___  | |_| | | (_| |   | |_| | | |_) | |  _| | |_| | \__ \ | (__  | (_| | | |_  |  __/ | (_| |
+ |_____|  \__,_|  \__,_|    \___/  |_.__/  |_|    \__,_| |___/  \___|  \__,_|  \__|  \___|  \__,_|
+                                                                                                                                        
+]]--
 
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
-
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
+local a=Instance.new("ScreenGui")local b=Instance.new("Frame")local c=Instance.new("UICorner")local d=Instance.new("TextLabel")local e=Instance.new("TextButton")local f=Instance.new("UICorner")local g=Instance.new("TextButton")local h=Instance.new("UICorner")local i=Instance.new("TextLabel")local j=Instance.new("UICorner")local k=Instance.new("TextButton")local l=Instance.new("UICorner")local m=Instance.new("TextLabel")local n=Instance.new("Frame")local o=Instance.new("UICorner")a.Name="Godly_Lifters"a.Parent=game.CoreGui;a.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;b.Name="Frame1"b.Parent=a;b.BackgroundColor3=Color3.fromRGB(59,59,59)b.Position=UDim2.new(0.327372789,0,0.323723763,0)b.Size=UDim2.new(0.24755694,0,0.348693579,0)b.ZIndex=9;b.Active=true;b.Draggable=true;c.Parent=b;d.Parent=b;d.BackgroundColor3=Color3.fromRGB(255,255,255)d.BackgroundTransparency=1.000;d.Position=UDim2.new(0,0,0.917355478,0)d.Size=UDim2.new(0.218374118,0,0.0991735533,0)d.ZIndex=9;d.Font=Enum.Font.FredokaOne;d.Text="V C C#2925"d.TextColor3=Color3.fromRGB(0,0,0)d.TextScaled=true;d.TextSize=14.000;d.TextWrapped=true;e.Name="Teleport"e.Parent=b;e.BackgroundColor3=Color3.fromRGB(0,0,0)e.Position=UDim2.new(0.0163167138,0,0.149056122,0)e.Size=UDim2.new(0,137,0,45)e.Font=Enum.Font.Michroma;e.Text="Teleport"e.TextColor3=Color3.fromRGB(255,255,255)e.TextSize=35.000;e.MouseButton1Down:connect(function()game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(7881.88818359375,-24.453989028930664,5323.22509765625)end)f.Parent=e;g.Name="Anti Afk"g.Parent=b;g.BackgroundColor3=Color3.fromRGB(0,0,0)g.Position=UDim2.new(0.340712249,0,0.149056122,0)g.Size=UDim2.new(0,137,0,45)g.Font=Enum.Font.Michroma;g.Text="Anti Afk"g.TextColor3=Color3.fromRGB(255,255,255)g.TextSize=35.000;g.MouseButton1Down:connect(function()loadstring(game:HttpGet("https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind",true))()end)h.Parent=g;i.Parent=b;i.BackgroundColor3=Color3.fromRGB(0,0,0)i.Position=UDim2.new(0.128869459,0,0.046658501,0)i.Size=UDim2.new(0,337,0,27)i.Font=Enum.Font.SourceSans;i.Text="Godly Lifters"i.TextColor3=Color3.fromRGB(255,255,255)i.TextSize=35.000;j.Parent=i;k.Name="Speed"k.Parent=b;k.BackgroundColor3=Color3.fromRGB(0,0,0)k.Position=UDim2.new(0.676217258,0,0.149056122,0)k.Size=UDim2.new(0,139,0,45)k.Font=Enum.Font.Michroma;k.Text="Speed"k.TextColor3=Color3.fromRGB(255,255,255)k.TextSize=35.000;k.MouseButton1Down:connect(function()game.Players.LocalPlayer.Character.Humanoid.WalkSpeed=1800 end)l.Parent=k;n.Name="Frame2 (Shadow)"n.Parent=a;n.BackgroundColor3=Color3.fromRGB(36,36,36)n.Position=UDim2.new(0.322043568,0,0.315139443,0)n.Size=UDim2.new(0.257681131,0,0.369549066,0)n.ZIndex=0;n.Active=true;n.Draggable=true;o.Parent=n;m.Name="idk keep this if u want"m.Parent=a;m.BackgroundColor3=Color3.fromRGB(255,255,255)m.BackgroundTransparency=1.000;m.Position=UDim2.new(0.462060452,0,0.696406424,0)m.Size=UDim2.new(0.095619984,0,0.0631970242,0)m.Font=Enum.Font.SourceSans;m.Text="Made By BombaTv Bro!"m.TextColor3=Color3.fromRGB(0,0,0)m.TextSize=37.000;m.Active=true;m.Draggable=true
